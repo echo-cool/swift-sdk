@@ -15,10 +15,10 @@ let package = Package(
         .library(name: "LeanCloud", targets: ["LeanCloud"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.3.0")),
-        .package(url: "https://github.com/apple/swift-protobuf.git", .upToNextMajor(from: "1.13.0")),
-        .package(url: "https://github.com/apple/swift-nio-zlib-support.git", from: "1.0.0"),
-        .package(url: "https://github.com/groue/GRDB.swift.git", .upToNextMajor(from: "4.14.0"))
+        .package(url: "https://github.com.cnpmjs.org/Alamofire/Alamofire.git", .upToNextMajor(from: "5.3.0")),
+        .package(url: "https://github.com.cnpmjs.org/apple/swift-protobuf.git", .upToNextMajor(from: "1.13.0")),
+        .package(url: "https://github.com.cnpmjs.org/apple/swift-nio-zlib-support.git", from: "1.0.0"),
+        .package(url: "https://github.com.cnpmjs.org/groue/GRDB.swift.git", .upToNextMajor(from: "4.14.0"))
     ],
     targets: [
         .target(
